@@ -23,6 +23,6 @@ public class ElfTest {
     public void testKick() {
         Hobbit hobbit = new Hobbit();
         character.kick(hobbit);
-        assertEquals(0, hobbit.getHp());
+        assertEquals(0, hobbit.getHP());
     }
 }
