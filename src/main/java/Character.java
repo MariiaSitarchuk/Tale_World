@@ -1,3 +1,5 @@
+package java;
+
 import lombok.Getter;
 import lombok.Setter;
 import lombok.AllArgsConstructor;
