@@ -1,6 +1,6 @@
 public class Hobbit extends Character {
     public Hobbit() {    // constructor
-        super(hp: 3, power: 0);
+        super(3, 0);
     }
     @Override
     public void kick(Character c){
