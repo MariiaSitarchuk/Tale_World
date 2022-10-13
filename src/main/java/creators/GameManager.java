@@ -1,7 +1,7 @@
 package creators;
 
-import characters.Character;
-import characters.Hobbit;
+import creatures.Character;
+import creatures.Hobbit;
 
 public class GameManager {
   
