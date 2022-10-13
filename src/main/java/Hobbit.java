@@ -1,6 +1,3 @@
-//import lombok.Override;
-//need to check this...
-
 public class Hobbit extends Character {
     public Hobbit() {    // constructor
         super(hp: 3, power: 0);
@@ -10,4 +7,3 @@ public class Hobbit extends Character {
         System.out.println(“tears”);
     }
 }
-
