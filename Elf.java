@@ -11,7 +11,7 @@ public class Elf extends Character {
             c.hp = 0;
         }
         else {
-            c.power = 0;
+            c.power = c.power - 1;
         }
     }
 }
