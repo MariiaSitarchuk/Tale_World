@@ -1,5 +1,6 @@
-import lotr.Elf;
-import lotr.Character;
+import creatures.Elf;
+import creatures.Hobbit;
+import creatures.Character;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
@@ -25,4 +26,3 @@ public class ElfTest {
         assertEquals(0, hobbit.getHp());
     }
 }
-
