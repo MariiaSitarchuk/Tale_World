@@ -1,4 +1,4 @@
-package java;
+package creatures;
 
 import java.util.Random;
 
