@@ -7,8 +7,8 @@ import lombok.AllArgsConstructor;
 
 @AllArgsConstructor
 public abstract class Character { 
-    @Getter @Setter
     private int hp; //data member (also instance variable)
+    @Getter @Setter
     private int power;//data member (also instance variable)
  
 //void kick(Character c), boolean isAlive()
