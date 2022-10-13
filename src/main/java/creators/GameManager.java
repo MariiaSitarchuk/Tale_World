@@ -5,7 +5,7 @@ import creatures.Hobbit;
 
 public class GameManager {
   
-    public void fight(Character c1, Character c2) { 
+    public static void fight(Character c1, Character c2) { 
         /**
         * to provide fight between to characters and explain via command 
         * line what happens during fight, till both of 
