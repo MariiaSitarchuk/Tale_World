@@ -25,7 +25,7 @@ public class HobbitTest {
 
     @Test
     public void testSetHp() {
-        character.setHp(-100);
-        assertEquals(0, character.getHp());
+        character.setHP(-100);
+        assertEquals(0, character.getHP());
     }
 }
