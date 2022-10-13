@@ -1,4 +1,4 @@
-package java;
+package creatures;
 
 public class King extends Noble {
     public King() {    // constructor
