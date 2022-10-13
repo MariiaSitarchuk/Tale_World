@@ -17,7 +17,7 @@ public abstract class Character {
         this.hp = Math.max(hp, 0);
     }
     
-    public void getHP() {
+    public int getHP() {
         return this.hp;
     }
     
