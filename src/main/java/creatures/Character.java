@@ -1,4 +1,4 @@
-package java;
+package creatures;
 
 import lombok.Getter;
 import lombok.Setter;
