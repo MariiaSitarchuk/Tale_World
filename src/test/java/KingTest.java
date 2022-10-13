@@ -18,7 +18,7 @@ public class KingTest {
 
     @Test
     public void testHp() {
-        assertTrue(character.getHp() >= 5 && character.getHp() <= 15);
+        assertTrue(character.getHP() >= 5 && character.getHP() <= 15);
     }
 
     @Test
