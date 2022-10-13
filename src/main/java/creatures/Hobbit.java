@@ -1,4 +1,4 @@
-package java;
+package creatures;
 
 public class Hobbit extends Character {
     public Hobbit() {    // constructor
