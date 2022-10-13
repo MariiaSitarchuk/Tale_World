@@ -1,3 +1,5 @@
+package java;
+
 public class King extends Noble {
     public King() {    // constructor
         super(5, 15);
