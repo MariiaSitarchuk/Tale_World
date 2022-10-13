@@ -7,12 +7,12 @@ public class Elf extends Character {
     }
     @Override
     public void kick(Character c){
-        if (c.power < this.power) {
+        if (c.getPower() < this.getPower()) {
             c.setHP(0);
             //c.hp = 0;
         }
         else {
-            c.setPower(c.power - 1);
+            c.setPower(c.getPower() - 1);
         }
     }
 }
