@@ -1,5 +1,8 @@
 package creators;
 
+import characters.Character;
+import characters.Hobbit;
+
 public class GameManager {
   
     public void fight(Character c1, Character c2) { 
