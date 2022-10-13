@@ -20,7 +20,7 @@ public class KnightTest {
 
     @Test
     public void testHp() {
-        assertTrue(character.getHp() >= 2 && character.getHp() <= 12);
+        assertTrue(character.getHP() >= 2 && character.getHP() <= 12);
     }
 
     @Test
