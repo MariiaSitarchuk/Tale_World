@@ -6,7 +6,7 @@ import lombok.AllArgsConstructor;
 
 
 @AllArgsConstructor
-public class Character { 
+public abstract class Character { 
     @Getter @Setter
     private int power;//data member (also instance variable)
     @Getter
