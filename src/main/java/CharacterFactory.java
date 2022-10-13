@@ -3,7 +3,7 @@ public class CharacterFactory {
     
     @SneakyThrows
     public static Character createCharacter() {
-        Reflections reflections = new Reflections(profix: “lotr”);
+        Reflections reflections = new Reflections(“src”);
 
         Set<Class<?>> subTypes = reflections.get(SubTypes.of(Character.class).asClass());
 
