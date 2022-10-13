@@ -3,7 +3,7 @@
 
 public class Elf extends Character {
     public Elf() {    // constructor
-        super(hp: 10, power: 10);
+        super(10, 10);
     }
     @Override
     public void kick(Character c){
