@@ -26,5 +26,5 @@ public class Character
  
     @Override
     public String toString(){
-        return this.getClass().getSimpleName() + “{” + “hp=” + hp + “, power=” + power + “}”;
+        return this.getClass().getSimpleName() + "{" + "hp=" + hp + ", power=" + power + "}";
 } 
